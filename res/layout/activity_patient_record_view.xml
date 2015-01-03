@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurseapp.PatientRecordView"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/userProfession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:text="Birth Date" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="XXX XXX"
+        android:textColor="@color/Brown"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/display_hc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:text="XXXXX"
+        android:textColor="@color/Brown"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/health_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="Health Card Number" />
+
+    <Button
+        android:id="@+id/view_latest_record"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:background="@color/Brown"
+        android:text="View Latest Record"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/view_all_records"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="@color/Brown"
+        android:text="View All Records"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:background="@color/Brown"
+        android:text="Exit"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Patient Name" />
+
+    <TextView
+        android:id="@+id/display_birth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:text="XXX XXX"
+        android:textColor="@color/Brown"
+        android:textSize="20sp" />
+
+</FrameLayout>
+

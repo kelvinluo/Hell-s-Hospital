@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nurseapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name="com.example.nurseapp.LoginScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="HELL'S HOSPITAL ER SYSTEM"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.User"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="WELCOME"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.DisplayList"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="INFO"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientStatusInput"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="PLEASE ENTER PATIENT STATUS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientDescriptionInput"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="PLEASE ENTER PATIENT DESCRIPTION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientRecordView"
+            android:label="PATIENT RECORD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientUpdate"
+            android:label="PLEASE CHOOSE AN OPTION" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientPrescriptionInput"
+            android:label="PLEASE ENTER PATIENT PRESCRIPTION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientAddition"
+            android:label="PLEASE COMPLETE THE FORM"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.nurseapp.PatientSelection"
+            android:label="SELECT A PATIENT" 
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

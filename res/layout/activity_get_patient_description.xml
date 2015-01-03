@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logincontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurseapp.GetPatientDescription"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/patientDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/descriptionUpdate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:background="@color/Brown"
+        android:text="Update"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/display_hc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="Description"
+        android:textSize="15sp" />
+
+</FrameLayout>

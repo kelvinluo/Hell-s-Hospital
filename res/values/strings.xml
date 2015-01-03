@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NurseApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nurse">Nurse</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_display_list">DisplayList</string>
+    <string name="title_activity_get_user_input_status">GetUserInputStatus</string>
+    <string name="title_activity_get_patient_status">GetPatientStatus</string>
+    <string name="title_activity_get_patient_visit_record">GetPatientVisitRecord</string>
+    <string name="title_activity_get_patient_description">GetPatientDescription</string>
+    <string name="title_activity_patient_record_view">PatientRecordView</string>
+    <string name="title_activity_patient_update">PatientUpdate</string>
+    <string name="title_activity_get_patient_prescription">GetPatientPrescription</string>
+    <string name="patientYear">YYYY</string>
+    <string name="patientMonth">MM</string>
+    <string name="patientDay">DD</string>
+    <string name="title_activity_add_patient">AddPatient</string>
+    <string name="title_activity_patient_selection">PatientSelection</string>
+
+</resources>

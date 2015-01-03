@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logincontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurseapp.DisplayList"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/all_patients"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1000"
+        android:scrollbars="vertical"
+        android:text="List:"
+        android:textColor="@color/Brown" />
+
+    <Button
+        android:id="@+id/exit_display"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@color/Brown"
+        android:text="exit"
+        android:textColor="@color/White" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:src="@color/Brown" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="bottom"
+        android:src="@color/Brown" />
+
+</FrameLayout>
+

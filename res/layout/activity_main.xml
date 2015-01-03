@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logincontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading_screen"
+    tools:context="com.example.nurseapp.MainActivity" >
+
+    <EditText
+        android:id="@+id/getUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/blank_white"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/Brown" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:gravity="center_horizontal"
+        android:text="User ID"
+        android:textColor="@color/Brown" />
+
+    <ImageView
+        android:id="@+id/urgency_heart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/title" />
+
+    <TextView
+        android:id="@+id/display_hc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:gravity="center_horizontal"
+        android:text="Password"
+        android:textColor="@color/Brown" />
+
+    <EditText
+        android:id="@+id/getUserPass"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@color/blank_white"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:password="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/loginBut"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/Brown"
+        android:text="Login"
+        android:textColor="@color/White"
+        android:textSize="20sp" />
+
+</RelativeLayout>

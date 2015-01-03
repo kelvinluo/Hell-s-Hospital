@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logincontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurseapp.GetPatientStatus"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/getBPSYS"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/display_hc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:text="Temperature"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/health_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:text="Blood Pressure (Systolic/Diastolic)"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/getHR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/getBPDIA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/display_birth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="Heart Rate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/getTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/descriptionUpdate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370dp"
+        android:background="@color/Brown"
+        android:text="Update"
+        android:textColor="@color/White" />
+
+</FrameLayout>
+

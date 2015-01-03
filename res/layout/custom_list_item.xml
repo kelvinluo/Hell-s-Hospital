@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:background="@color/White"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/urgency_heart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/patient"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="41dp"
+        android:src="@color/Brown" />
+
+    <TextView
+        android:id="@+id/additionalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/white"
+        android:text="URGENCY"
+        android:textColor="@color/Brown"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/set_patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:text="Name"
+        android:textColor="@color/Brown"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/set_birth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="63dp"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="Birth Date XXXX-XX-XX"
+        android:textColor="@color/Brown"
+        android:textColorLink="@color/Red"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/set_hc_num"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="41dp"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="Health Card Number"
+        android:textColor="@color/White"
+        android:textColorLink="@color/Red"
+        android:textSize="15sp" />
+
+</RelativeLayout> 
